@@ -10,6 +10,7 @@ body{
     no-repeat center center;
     min-height: 40rem;
     opacity: 0.9;
+
 }
 
 
@@ -410,26 +411,40 @@ nav ul li:hover ul.dropdown {
 }
 
 @media screen and (max-width: 768px) {
-    .wrapper .menu-icon {
-        display: block;
-        padding-left: 90%;
-        margin-top: 0%;
-        
-        
+    .wrapper{
+        background: url(College.jpg)
+        no-repeat center center;
+        min-height: 40rem;
+        opacity: 0.9;
+    
     }
+    
+    .menu-icon {
+        display: block;
+        right: -2%;
+        color: #f91771;
+    }
+
+
+
     nav ul {
         display: none;
         flex-direction: column;
         background: #000;
-        width: 100%;
+        width: 44.5%;
         position: absolute;
         top: 100%;
-        left: 0;
+        left: 270px;
+        height: auto;
+        right:100x;
     }
 
     #menu-toggle:checked + label + ul {
         display: flex;
         position: absolute;
+
+    
+        
     }
 
 
